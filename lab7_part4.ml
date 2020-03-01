@@ -73,7 +73,8 @@ module Stack : STACK =
     let empty : 'a stack = []
 
     (* push i s -- Adds an element i to the top of stack s *)
-    let push (i : 'a) (s : 'a stack) : 'a stack = i :: s
+    let push (i : 'a) (s : 'a stack) : 'a stack =
+      i :: s
 
     (* pop_helper s -- Returns a pair of the top element of the
        stack and a stack containing the remaining elements *)
