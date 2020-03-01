@@ -59,7 +59,7 @@ module IntListStack =
     type stack = int list
 
     (* empty -- An empty stack *)
-    let empty : stack = []]
+    let empty : stack = []
 
     (* push i s -- Adds an integer element i to the top of stack s *)
     let push (i : int) (s : stack) : stack =
